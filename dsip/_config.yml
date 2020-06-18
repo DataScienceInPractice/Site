@@ -1,0 +1,30 @@
+#######################################################################################
+# Book settings
+title     : Data Science in Practice
+author    : Thomas Donoghue, Bradley Voytek, & Shannon Ellis
+copyright : "2020-"
+logo      : ""
+
+#######################################################################################
+# Execution settings
+execute:
+  execute_notebooks           : cache
+
+#######################################################################################
+# HTML-specific settings
+html:
+  home_page_in_navbar         : false
+
+# #######################################################################################
+# Interact link settings
+notebook_interface            : "notebook"
+
+#######################################################################################
+# Launch button settings
+repository:
+  url                         : https://github.com/datascienceinpractice/
+  path_to_book                : "dsip"
+
+binder:
+  binderhub_url               : "https://mybinder.org"
+  text                        : "Launch binder"
