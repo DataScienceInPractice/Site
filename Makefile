@@ -27,16 +27,17 @@ deploy:
 	make build
 
 	# Clone the website deployment repository
-	git clone --depth 1 https://github.com/datascienceinpractice/datascienceinpractice.github.io _build/deploy/
+	rm -rf dsip/_build/deploy/
+	git clone --depth 1 https://github.com/datascienceinpractice/datascienceinpractice.github.io dsip/_build/deploy/
 
 	# A .nojekyll file tells Github pages to bypass Jekyll processing
-	touch _build/deploy/.nojekyll
+	touch dsip/_build/deploy/.nojekyll
 
 	# Copy site into the gh-pages branch folder, then push to Github to deploy
-	cd _build/ && \
+	cd dsip/_build/ && \
 	cp -r html/ deploy && \
 	cd deploy && \
 	git add * && \
 	git add .nojekyll && \
-	git commit -a -m 'Make install' && \
+	git commit -a -m 'deploy site' && \
 	git push
