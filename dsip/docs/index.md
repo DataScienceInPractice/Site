@@ -8,9 +8,9 @@ _If you are in the COGS108 class at UC San Diego, this website is **not** the sa
 
 ### Overview
 
-The goal and focus of Data Science in Practice is as an introductory course for learning Data Science, using the Python programming language. It is focused on the practical elements of doing data science - meaning on working with real data and problems.
+The goal and focus of Data Science in Practice is as an introductory course for learning Data Science, using the Python programming language. It is focused on combing the many practical skills of doing data science - meaning working with real data on real problems.
 
-You can read more about the course outline on the
+You can read more about the course outline in the
 [course syllabus](https://github.com/COGS108/Overview/blob/master/COGS108-Syllabus.pdf).
 
 ### Content
@@ -30,7 +30,7 @@ The materials on this website are openly available under a
 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.
 
 Data Science in Practice was originated by
-[Bradley Voytek](https://voyteklab.com/), and is currently primarily taught & developed by
+[Bradley Voytek](https://voyteklab.com/), and is currently primarily taught and developed by
 [Shannon Ellis](http://www.shanellis.com/).
 This website and many of the materials were developed by
 [Tom Donoghue](https://tomdonoghue.github.io/), with additional contributions from the
