@@ -38,6 +38,7 @@ Topics covered in the data science in practice tutorials include:
 * Simple data analyses, such as linear models, clustering, dimensionality reduction and classification
 
 These topics are further explored in available assignments, which cover:
+
 * Wrangling, cleaning, and combining multiple messy and heterogeneous datasets
 * Collecting web data, applying data protection policies, anonymizing data, and adversarial attacks for deanonymizing  data
 * Data analyses, including statistical analyses, applying linear models, and creating visualizations
