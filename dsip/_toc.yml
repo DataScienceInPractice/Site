@@ -4,6 +4,7 @@
 - file: tutorials/00-Introduction
 - file: tutorials/01-JupyterNotebooks
 - file: tutorials/02-DataAnalysis
+- file: tutorials/03-Python
 - file: tutorials/04-DataSciencePython
 - file: tutorials/05-DataGathering
 - file: tutorials/06-DataWrangling
@@ -20,9 +21,10 @@
 - file: tutorials/18-NaturalLanguageProcessing
 
 - header: Assignments
-- file: assignments/D1_gitpython
-- file: assignments/D2_Pandas
 - file: assignments/D3_DataExploration
-- file: assignments/D4_DataPrivacy
-- file: assignments/D5_DataAnalysis
-- file: assignments/D6_NaturalLanguageProcessing
+
+# - file: assignments/D1_gitpython
+# - file: assignments/D2_Pandas
+# - file: assignments/D4_DataPrivacy
+# - file: assignments/D5_DataAnalysis
+# - file: assignments/D6_NaturalLanguageProcessing

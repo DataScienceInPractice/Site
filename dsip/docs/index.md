@@ -8,7 +8,7 @@ _If you are in the COGS108 class at UC San Diego, this website is **not** the sa
 
 ### Overview
 
-The goal and focus of Data Science in Practice is as an introductory course for learning Data Science, using the Python programming language. It is focused on combing the many practical skills of doing data science - meaning working with real data on real problems.
+The goal and focus of Data Science in Practice is as an introductory course for learning Data Science, using the Python programming language. It is focused on combining the many practical skills of doing data science - meaning working with real data on real problems.
 
 You can read more about the course outline in the
 [course syllabus](https://github.com/COGS108/Overview/blob/master/COGS108-Syllabus.pdf).
