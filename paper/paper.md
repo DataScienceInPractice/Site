@@ -48,7 +48,7 @@ The materials are developed in the Python (>= 3.6) programming language, using a
 
 # Statement of Need
 
-The field of data science has been rapidly expanding, creating a need for accessible and scalable materials. There is high interest from students for instruction in data science, and a need in both academia and industry for trained and skilled practitioners. Developing such skills requires hands-on experience and expertise, motivating the focus here on materials that are embodied and available in code, and workable assignments that allow students to practice applying the topics and ideas under study.
+The field of data science has been rapidly expanding, creating a need for accessible and scalable materials. There is high interest from students for instruction in data science, and a need in both academia and industry for trained and skilled practitioners. Developing such skills requires hands-on experience and expertise. To address this need, the materials here are focused on materials that practical and available in code, and guided assignments that allow students to practice applying the topics and ideas under study.
 
 There are many available resources for topics related to data science, including dedicated tutorials for data science tools and software packages. What can still be difficult, for the novice, is learning how to find and navigate through these materials. A key goal of this course and these materials is to offer a curated introduction to the many topics and tools, and some initial guided work to make sure students can start to engage with the many aspects of data science. Throughout the course materials, there are many links to other resources. The goal is that the motivated student can use these materials as a starting place, and a launching off point for the many other more specific resources and tutorials available.
 
@@ -62,7 +62,7 @@ The full course is supplemented by lectures and lab sections, and is designed as
 
 # Conclusion
 
-Altogether, these materials offer a general, hands-on introduction to the practice of data science, and its many facets. This serves as a complement to many other resources dedicated more specifically to technical skills, and aims to contextualize the interdisciplinary nature and practical components of working with real world data.
+Altogether, these materials offer a general, hands-on introduction to the practice of data science, and its many facets. These materials serve as a complement to many other resources dedicated more specifically to technical skills, and aim to introduce and contextualize the interdisciplinary nature and practical components of working with real world data.
 
 # Acknowledgments
 
