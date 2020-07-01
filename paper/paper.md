@@ -27,7 +27,7 @@ bibliography: paper.bib
 
 # Summary
 
-Data Science in Practice is a collection of openly available materials, including tutorials and assignments, for learning how to integrate the many skills of data science. The course materials focus on these day-to-day practicalities of hands-on data science, with a particular emphasis on gaining a working familiarity with real-world applications and gaining a 'data intuition'. This collection of materials was originally developed for a course at UC San Diego, but have been updated and publicly released, and are available at: https://datascienceinpractice.github.io/
+Data Science in Practice is a collection of openly available materials, including tutorials and assignments, for learning how to integrate the many skills of data science. The course materials focus on the day-to-day practicalities of hands-on data science, with a particular emphasis on gaining a working familiarity with real-world applications and gaining a 'data intuition'. This collection of materials was originally developed for a course at UC San Diego, but have been updated and publicly released, and are available at: https://datascienceinpractice.github.io/
 
 Topics covered in the data science in practice tutorials include:
 
@@ -36,7 +36,7 @@ Topics covered in the data science in practice tutorials include:
 * Concepts and concerns for using and interpreting data, including data ethics, privacy, and security.
 * Introductory statistical concepts, including distributions, statistical tests, and testing statistical properties and assumptions in real datasets.
 * Simple data analyses, such as linear models, clustering, dimensionality reduction and classification.
-* Presenting data and analysis, through data visualization, and writing about results, with a focus on clear explanations.
+* How to report on data and analysis, through data visualization and narrative text, with a focus on clear explanations.
 
 These topics are further explored in available assignments, which cover:
 
@@ -50,7 +50,7 @@ The materials are developed in the Python (>= 3.6) programming language, using a
 
 The field of data science has been rapidly expanding, creating a need for accessible and scalable materials. There is high interest for instruction in data science, and a need in both academia and industry for trained and skilled practitioners. Developing such skills requires hands-on experience and expertise. To address this need, the materials here are focused on practical code-based tutorials, and guided assignments that allow users to practice applying the topics and ideas under study.
 
-There are many available resources for topics related to data science, including dedicated tutorials for data science tools and software packages. What can still be difficult, for the novice, is learning how to find and navigate through these materials. A key goal of this course and these materials is to offer a curated introduction to the many topics and tools, and some initial guided work to make sure users can start to engage with the many aspects of data science. Throughout the course materials, there are many links to other resources. The goal is that the motivated user can use these materials as a starting place, and a launching off point for the many other more specific resources and tutorials available.
+There are many available resources for topics within and related to data science, including dedicated tutorials for data science tools and software packages. What can still be difficult, for the novice, is learning how to find and navigate through these materials. A key goal of this course and these materials is to offer a curated introduction to the many topics and available tools, and some initial guided work to make sure users can start to engage with the many aspects of data science. Throughout the course materials, there are many links to other resources. The goal is that these materials be a starting place for the potential user, and a launching off point to the many other more specific resources and tutorials available.
 
 Data science is an interdisciplinary field, requiring expertise from across a range of relevant fields - including technical aspects such as software, computation, statistics, mathematics and machine learning, as well as topics such as research design, contextual understanding of data, ethics, and an understanding of the potential impacts. These materials aim to encompass these multiple elements of data science, focusing not only on the technical aspects of doing data science, but also acknowledging and emphasizing the social impacts and responsibilities of practicing data scientists. These materials are part of an emerging field of integrated data science, as compared to some more traditional courses and materials that focus on, for example, more detailed machine learning or computation.
 
@@ -60,7 +60,7 @@ This set of materials were originally created as core materials for a university
 
 The full course is supplemented by lectures and lab sections, and is designed as a project-based course. Students work through the materials and assignments presented here, with the goal of building towards doing realistic data science projects. In these projects, students must find openly available datasets, develop a proposal, and then execute analyses to come to an answer. Students must then contextualize the results as a computational notebook that lists their questions and hypotheses, background, ethical considerations, data sources and reliability, results, and conclusion, intermixed with the code and visualizations used to perform the analyses.
 
-In order to encourage users of the public website to also continue to pursue independent data science projects, using openly available datasets and tools, the website also includes a description of the project outline, including instructions used in the class for how to complete data-driven projects, and listings of available data repositories.
+In order to encourage users of the public website to also continue to pursue independent data science projects, the website also includes a description of the project outline from the course. This includes guidelines for how to complete data-driven projects using openly available datasets and tools, including listings of available data repositories.
 
 # Conclusion
 
@@ -68,6 +68,6 @@ Altogether, these materials offer a general, hands-on introduction to the practi
 
 # Acknowledgments
 
-We would like to thank the course staff, including the instructional assistants, teaching assistants, and instructors who have contributed time, work, and ideas to this course and these materials, as well as all the students who have taken this course and provided feedback.
+We would like to thank the course staff, including the instructional assistants, teaching assistants, and instructors who have contributed time, work, and ideas to this course and these materials, as well as all the students who have taken this course and provided valuable feedback.
 
 # References
