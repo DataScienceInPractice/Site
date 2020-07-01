@@ -2,9 +2,9 @@
 
 - header: Tutorials
 - file: tutorials/00-Introduction
-- file: tutorials/01-JupyterNotebooks
-- file: tutorials/02-DataAnalysis
-- file: tutorials/03-Python
+- file: tutorials/01-Python
+- file: tutorials/02-JupyterNotebooks
+- file: tutorials/03-DataAnalysis
 - file: tutorials/04-DataSciencePython
 - file: tutorials/05-DataGathering
 - file: tutorials/06-DataWrangling
@@ -13,18 +13,25 @@
 - file: tutorials/09-DataVisualization
 - file: tutorials/10-Distributions
 - file: tutorials/11-TestingDistributions
+- file: tutorials/12-StatisticalComparisons
 - file: tutorials/13-OrdinaryLeastSquares
 - file: tutorials/14-LinearModels
 - file: tutorials/15-Clustering
 - file: tutorials/16-DimensionalityReduction
 - file: tutorials/17-Classification
 - file: tutorials/18-NaturalLanguageProcessing
+- file: tutorials/A1-PythonPackages
+- file: tutorials/A2-Git
 
 - header: Assignments
+- file: assignments/D2_Pandas
 - file: assignments/D3_DataExploration
+- file: assignments/D4_DataPrivacy
+- file: assignments/D5_DataAnalysis
+- file: assignments/D6_NaturalLanguageProcessing
+#- file: assignments/D1_gitpython
 
-# - file: assignments/D1_gitpython
-# - file: assignments/D2_Pandas
-# - file: assignments/D4_DataPrivacy
-# - file: assignments/D5_DataAnalysis
-# - file: assignments/D6_NaturalLanguageProcessing
+- header: Project
+- file: projects/projects
+#- file: projects/ProjectProposal
+#- file: projects/ProjectReport
