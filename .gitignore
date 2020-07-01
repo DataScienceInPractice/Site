@@ -1,6 +1,7 @@
 # Ignore local builds of the textbook
 dsip/_build/*
 
-# Ignore repositories copied in
+# Ignore materials that are copied in
 dsip/tutorials/*
 dsip/assignments/*
+dsip/projects/*
