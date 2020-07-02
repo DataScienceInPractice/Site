@@ -14,7 +14,7 @@ The goal of Data Science in Practice is to introduce the practical elements of _
 
 Data science is an emerging and multidisciplinary field, organized around the practice of analyzing data, and all the questions, practices and problems that entails.
 
-These materials focus on the practical elements of finding, analyzing, interpreting and contextualizing the data analysis, in order to practice using answering questions with data.
+These materials focus on the practical elements of finding, analyzing, interpreting and contextualizing data analysis, in order to practice answering questions with data.
 
 ## Requirements
 
@@ -31,7 +31,7 @@ Available materials include:
 - **Assignments** which are problem sets that can be worked through
     - These can be used to practice key skills and ideas with code
 - **Projects** which describes how to pursue independent analysis projects
-    - This can be used as a guide for to how to continue with real data science projects
+    - This can be used as a guide for how to continue with real data science projects
 
 All the materials are listed in the table of contents in the left sidebar.
 
@@ -47,9 +47,14 @@ For further information on topics we introduce, these materials link to external
 
 These materials are created as [Jupyter Notebooks](https://jupyter.org), and are intended to be executed and explored in a hands-on manner.
 
-There is a download link at the top left of the page, that can be used to download each page as a notebook. This allows you to use the notebook locally, executing code, and answer questions.
+There is a download link at the top left of the page, that can be used to download each page as a notebook. This allows you to use the notebook locally, executing code, and answering questions.
 
-## Relation to COGS 108
+## Issue Tracking
+
+If you have any find any bugs or issues, or have any suggestions for these materials, please open an
+[issue](https://github.com/DataScienceInPractice/Site/issues).
+
+## Source Materials
 
 This website hosts materials and code from a university course,
 [COGS 108](https://github.com/COGS108/),
@@ -57,10 +62,12 @@ which is taught at UC San Diego.
 
 This set of materials are an openly available version of tutorials and coursework developed for and used in the course.
 
-These materials may still contain some references to the course which can be ignored.
+These materials may still contain some references to the course or to grading, which can be ignored.
 
 You can read more about the course in the
 [course syllabus](https://github.com/COGS108/Overview/blob/master/COGS108-Syllabus.pdf).
+
+The source repository for this website is available [here](https://github.com/DataScienceInPractice/Site).
 
 ## License
 
