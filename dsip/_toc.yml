@@ -24,12 +24,12 @@
 - file: tutorials/A2-Git
 
 - header: Assignments
+- file: assignments/D1_Python
 - file: assignments/D2_Pandas
 - file: assignments/D3_DataExploration
 - file: assignments/D4_DataPrivacy
 - file: assignments/D5_DataAnalysis
 - file: assignments/D6_NaturalLanguageProcessing
-#- file: assignments/D1_gitpython
 
 - header: Project
 - file: projects/projects
