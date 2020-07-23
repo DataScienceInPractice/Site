@@ -1,6 +1,9 @@
 # Ignore local builds of the textbook
 dsip/_build/*
 
+# Ignore any notebook checkpoint files
+*.ipynb_checkpoints*
+
 # Ignore materials that are copied in
 #dsip/tutorials/*
 #dsip/assignments/*
