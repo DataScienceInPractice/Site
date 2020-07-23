@@ -2,6 +2,6 @@
 dsip/_build/*
 
 # Ignore materials that are copied in
-dsip/tutorials/*
-dsip/assignments/*
-dsip/projects/*
+#dsip/tutorials/*
+#dsip/assignments/*
+#dsip/projects/*
