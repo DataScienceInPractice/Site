@@ -1,6 +1,6 @@
 # Data Science in Practice Site
 [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC--BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Data science in practice is a collection of materials & assignments for learning and practice introductory data science.
 
@@ -40,4 +40,4 @@ This repository contains the following sections:
 
 ## License
 
-These materials are made freely available, and are licensed under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.
+These materials are made freely available, and are licensed under a [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
