@@ -72,7 +72,7 @@ The source repository for this website is available [here](https://github.com/Da
 ## License
 
 The materials on this website are openly available under a
-[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.
+[CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
 ## Acknowledgments
 
