@@ -56,7 +56,7 @@ clone-projects:
 
 
 ##########################################################################
-## BUILDING SITE
+## CLEAN UPS
 
 # Clear out the copied repositories
 clear:
@@ -65,6 +65,14 @@ clear:
 	rm -rf $(BOOK)/tutorials
 	#rm -rf $(BOOK)/assignments
 	#rm -rf $(BOOK)/projects
+	
+# Clean out the built textbook
+clean:
+	jupyter-book clean $(BOOK_NAME)/
+
+
+##########################################################################
+## BUILDING SITE
 
 # Build the textbook
 build:
