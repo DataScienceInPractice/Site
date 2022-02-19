@@ -19,7 +19,6 @@ SITE-LOC        = datascienceinpractice.github.io
 ##########################################################################
 ## CLONING MATERIALS
 
-
 # Clone all materials
 clone:
 	clone-tutorials
@@ -59,7 +58,6 @@ clone-projects:
 ##########################################################################
 ## BUILDING SITE
 
-
 # Clear out the copied repositories
 clear:
 
@@ -76,21 +74,20 @@ build:
 ##########################################################################
 ## DEPLOYING SITE
 
-
 # Deploy the website
 deploy:
 
 	# Create the textbook
 	make build
 
-	# Clone the website deployment repository
+	# Clone the website host repository
 	rm -rf $(BOOK)/_build/deploy/
 	git clone --depth 1 $(BOOK-ORG)/$(SITE-LOC) $(BOOK)/_build/deploy/
 
-	# A .nojekyll file tells Github pages to bypass Jekyll processing
+	# Add .nojekyll file to tell Github pages to bypass Jekyll processing
 	touch $(BOOK)/_build/deploy/.nojekyll
 
-	# Copy site into the gh-pages branch folder, then push to Github to deploy
+	# Copy site source into the host repo folder, then push to Github to deploy
 	cd $(BOOK)/_build/ && \
 	cp -r html/ deploy && \
 	cd deploy && \
