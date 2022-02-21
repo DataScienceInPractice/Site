@@ -37,6 +37,7 @@ parts:
 
 - caption: Project
   chapters:
-  - file: projects/projects
-  #- file: projects/ProjectProposal
-  #- file: projects/ProjectReport
+  - file: projects/project_guidelines
+  - file: projects/ProjectProposal
+  - file: projects/ProjectReport
+  - file: projects/project_checklist
