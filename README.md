@@ -3,15 +3,24 @@
 [![Website](https://img.shields.io/badge/site-datascienceinpractice.github.io-informational.svg)](https://datascienceinpractice.github.io)
 [![License: CC-BY 4.0](https://img.shields.io/badge/License-CC--BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-Data science in practice is a collection of materials & assignments for learning and practice introductory data science.
+Data science in practice is a collection of materials for learning introductory data science.
 
 ## Overview
 
 This repository is the source repository for creating the [Data Science in Practice](https://datascienceinpractice.github.io/) website.
 
-These materials serve as a public version of materials developed for the [COGS108](https://github.com/COGS108) class.
+Specifically, the website contains:
+- `tutorials`, which introduce key topics for doing data science
+- `assignments`, which are problem sets that can be worked through
+- `projects`, which describes how to pursue independent analysis projects
 
-This repository has the tools for building the website, by accessing, updating, and building from the materials from the COGS 108 organization.
+These materials serve as a public version of materials from the [COGS108](https://github.com/COGS108) class.
+
+This repository has the tools for building the website. To do so, it copies materials from the 
+COGS 108 organization, and then updates and organizes them for the public website. See the 
+[instructions](https://github.com/DataScienceInPractice/Site/blob/main/instructions.md) 
+page for notes on how this works.
+
 The built version of book is then posted to the
 [website repository](https://github.com/DataScienceInPractice/datascienceinpractice.github.io)
 for hosting.
