@@ -10,9 +10,9 @@
 ##########################################################################
 ## VARIABLES
 
-BOOK     	= dsip
+BOOK     	    = dsip
 CONTENT-ORG   	= https://github.com/COGS108
-BOOK-ORG  	= https://github.com/datascienceinpractice
+BOOK-ORG  	    = https://github.com/datascienceinpractice
 SITE-LOC        = datascienceinpractice.github.io
 
 
@@ -21,8 +21,9 @@ SITE-LOC        = datascienceinpractice.github.io
 
 # Clone all materials
 clone:
+
 	clone-tutorials
-	#clone-assignments
+	clone-assignments
 	clone-projects
 
 # Clone the tutorials
@@ -36,23 +37,33 @@ clone-tutorials:
 # Clone the assignments
 clone-assignments:
 
-	# Copy & build assignments
-	# @git clone --depth 1 $(CONTENT-ORG)/assignments $(BOOK)/assignments
-	# @rm content/assignments/README.md
-	# @rm -rf $(BOOK)/assignments/.git
+	# Clone assignments demo repo, and copy out files (to re-org & rename)
+	@git clone --depth 1 $(CONTENT-ORG)/Assign_Demo $(BOOK)/temp
+	@mv $(BOOK)/temp/release/A1/A1_git_python.ipynb $(BOOK)/assignments/D1_Python.ipynb
+	@mv $(BOOK)/temp/release/A2/A2_Pandas.ipynb $(BOOK)/assignments/D2_Pandas.ipynb
+	@mv $(BOOK)/temp/release/A3/A3_DataExploration.ipynb $(BOOK)/assignments/D3_DataExploration.ipynb
+	@mv $(BOOK)/temp/release/A4/A4_DataPrivacy.ipynb $(BOOK)/assignments/D4_DataPrivacy.ipynb
+	@mv $(BOOK)/temp/release/A5/A5_DataAnalysis.ipynb $(BOOK)/assignments/D5_DataAnalysis.ipynb
+	@mv $(BOOK)/temp/release/A6/A6_NaturalLanguageProcessing.ipynb $(BOOK)/assignments/D6_NaturalLanguageProcessing.ipynb
+	@rm -rf $(BOOK)/temp
 
 # Clone the project information
 clone-projects:
 
-	# Copy & build project information
-	@git clone --depth 1 $(CONTENT-ORG)/Projects $(BOOK)/temp
+	# Copy over the project repositories into temporary repositories
+	@git clone --depth 1 $(CONTENT-ORG)/Projects $(BOOK)/temp1
+	@git clone --depth 1 $(CONTENT-ORG)/group_template $(BOOK)/temp2
 
-	# Current work-around to pull out what we want from projects
+	# Copy over the files we want
 	@mkdir $(BOOK)/projects
-	@mv $(BOOK)/temp/Option1_Group/FinalProject_Guidelines.md $(BOOK)/projects/projects.md
-	@mv $(BOOK)/temp/Option1_Group/ProjectProposal_groupXX.ipynb $(BOOK)/projects/ProjectProposal.ipynb
-	@mv $(BOOK)/temp/Option1_Group/FinalProject_groupXX.ipynb $(BOOK)/projects/ProjectReport.ipynb
-	@rm -rf $(BOOK)/temp
+	@mv $(BOOK)/temp1/README.md $(BOOK)/projects/project_checklist.md
+	@mv $(BOOK)/temp1/FinalProject_Guidelines.md $(BOOK)/projects/project_guidelines.md
+	@mv $(BOOK)/temp2/ProjectProposal_groupXXX.ipynb $(BOOK)/projects/ProjectProposal.ipynb
+	@mv $(BOOK)/temp2/FinalProject_groupXXX.ipynb $(BOOK)/projects/ProjectReport.ipynb
+
+	# Clear out the temporary folders
+	@rm -rf $(BOOK)/temp1
+	@rm -rf $(BOOK)/temp2
 
 
 ##########################################################################
@@ -61,11 +72,20 @@ clone-projects:
 # Clear out the copied repositories
 clear:
 
-	# Clear cloned materials
+	# Clear all cloned materials
+	clear-tutorials
+	clear-assignemnts
+	clear-projects
+
+clear-tutorials:
 	rm -rf $(BOOK)/tutorials
-	#rm -rf $(BOOK)/assignments
-	#rm -rf $(BOOK)/projects
-	
+
+clear-assignemnts:
+	rm -rf $(BOOK)/assignments
+
+clear-projects:
+	rm -rf $(BOOK)/projects
+
 # Clean out the built textbook
 clean:
 	jupyter-book clean $(BOOK_NAME)/
