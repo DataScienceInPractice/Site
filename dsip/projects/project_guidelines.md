@@ -1,4 +1,4 @@
-# Final Project
+# Project Guide
 
 This is an edited version of the project guidelines used for the course.
 
