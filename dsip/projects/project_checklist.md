@@ -1,30 +1,12 @@
-# Projects 
+# Project Checklist
 
-Materials for the Project in COGS108.
-
-## Project Documentation 
-
-* [Project Guidelines](https://github.com/COGS108/Projects/blob/master/FinalProject_Guidelines.md)
-* [Team Policies](https://github.com/COGS108/Projects/blob/master/COGS108_TeamPolicies.md)
-
-## Project Templates
-
-Templates have been provided in your group's project repo.
-
-* Proposal: ProjectProposal_groupXXX.ipynb
-* Checkpoint #1: DataCheckpoint_groupXXX.ipynb
-* Checkpoint #2: EDACheckpoint_groupXXX.ipynb
-* Final Report: FinalProject_groupXXX.ipynb
-
-## Final Project Checklist
-
-Students often ask for a rubric. You can use this checklist to help guide your thinking on the final project. If you check off all the boxes below, you should be in good shape to get a perfect score on your final project.
+You can use this checklist to help guide your thinking on the final project. If you check off all the boxes below, you should be in good shape to get a perfect score on your final project.
 
 ### Overview, Question & Background
 
 **Overview**:
 - [ ] Write a clear summary of what you did
-- [ ] Briefly describe the results of your project 
+- [ ] Briefly describe the results of your project
 - [ ] Limit overview to 3-4 sentences
 
 **Research Question**:
@@ -37,7 +19,7 @@ Students often ask for a rubric. You can use this checklist to help guide your t
 - [ ] Include citations or links to previous work
 
 **Hypothesis**:
-- [ ] Include your team's hypothesis
+- [ ] Include the hypothesis
 - [ ] Ensure that this hypothesis is clear to readers
 - [ ] Explain why you think this will be the outcome (what was your thinking?)
 
@@ -59,7 +41,7 @@ Students often ask for a rubric. You can use this checklist to help guide your t
 
 **Data Analysis & Results**:
 - [ ] EDA carried out with explanations of what was done and interpretations of output included
-- [ ] Appropriate analysis performed 
+- [ ] Appropriate analysis performed
 - [ ] Output of analysis interpreted and interpretation included in notebook
 
 ### Privacy/Ethics Considerations:
@@ -72,27 +54,8 @@ Students often ask for a rubric. You can use this checklist to help guide your t
 - [ ] Limitations of analysis discussed
 - [ ] Does not ramble on beyond providing necessary information
 
-### Video:
-- [ ] Question asked is clear to listeners
-- [ ] Effective visualizations presented
-- [ ] Clear explanations throughout
-- [ ] Take home message clear
-- [ ] Within 3-5 min time limit
-
 ### Final Checks:
 - [ ] Edit all text for clarity
 - [ ] Remove all instructions
 - [ ] Be sure text included throughout to guide reader
 - [ ] Check to make sure all text and images are visible
-- [ ] Names included
-- [ ] Renamed file : `FinalProject_groupXXX.ipynb`, where 'XXX' is replaced by your group's group number
-
-### After the course is done:
-- If you checked YES to make project public: the final project notebook (and only that!) will be placed in a repo with the rest of this quarters public reports. This helps future students by providing examples!
-- Your projct repo will remain available to you in the near future. We cannot guarentee that will always be the case. That repo will never be public.
-- If you would like your own copy of the entire repo you should follow these instructions: https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository Once you have done that it is yours forever. You will also be able to control access to the mirror (make it public or private as you would prefer) 
-
----
-## License 
-
-The content of this project itself is licensed under the [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/).
