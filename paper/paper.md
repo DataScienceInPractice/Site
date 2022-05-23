@@ -56,7 +56,7 @@ Data science is an interdisciplinary field, requiring expertise from across a ra
 
 # Instructional Design
 
-This set of materials were originally created as core materials for a university course, Data Science in Practice, taught at UC San Diego [@donoghue_teaching_2020]. This course was first taught in the Spring of 2017 and has about 400 students per iteration. The scale of this course originally prompted the development of standalone materials and assignments, that we are now making more generally available.
+This set of materials was originally created as core materials for a university course, Data Science in Practice, taught at UC San Diego [@donoghue_teaching_2020]. This course was first taught in the Spring of 2017 and has about 400 students per iteration. The scale of this course originally prompted the development of standalone materials and assignments, that we are now making more generally available.
 
 The full course is supplemented by lectures and lab sections, and is designed as a project-based course. Students work through the materials and assignments presented here, with the goal of building towards doing realistic data science projects. In these projects, students must find openly available datasets, develop a proposal, and then execute analyses to come to an answer. Students must then contextualize the results as a computational notebook that lists their questions and hypotheses, background, ethical considerations, data sources and reliability, results, and conclusion, intermixed with the code and visualizations used to perform the analyses.
 
