@@ -2,6 +2,7 @@
 [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![Website](https://img.shields.io/badge/site-datascienceinpractice.github.io-informational.svg)](https://datascienceinpractice.github.io)
 [![License: CC-BY 4.0](https://img.shields.io/badge/License-CC--BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![DOI](https://jose.theoj.org/papers/10.21105/jose.00121/status.svg)](https://doi.org/10.21105/jose.00121)
 
 Data science in practice is a collection of materials for learning introductory data science.
 
@@ -46,7 +47,16 @@ This repository contains the following sections:
     - `tutorials/` contains tutorial notebooks which introduce key topics for doing data science
     - `assignments/` contains assignment notebooks with problem sets that can be worked through
     - `projects/` contains information on how to pursue independent analysis projects
-- `paper/` contains a draft paper, describing these materials, and submitted to [JOSE](https://jose.theoj.org/)
+- `paper/` contains a copy of the paper that describes these materials
+
+## Reference
+
+This project is described in the following paper:
+
+    Donoghue T, Voytek B, & Ellis S (2022). Course Materials for Data Science in 
+    Practice. Journal of Open Source Education, 5(51), 121. DOI: 10.21105/jose.00121
+
+Direct Link: https://doi.org/10.21105/jose.00121
 
 ## License
 
