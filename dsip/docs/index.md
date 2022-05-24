@@ -69,6 +69,15 @@ You can read more about the course in the
 
 The source repository for this website is available [here](https://github.com/DataScienceInPractice/Site).
 
+## Reference
+
+This project is described in the following paper:
+
+    Donoghue T, Voytek B, & Ellis S (2022). Course Materials for Data Science in 
+    Practice. Journal of Open Source Education, 5(51), 121. DOI: 10.21105/jose.00121
+
+Direct Link: https://doi.org/10.21105/jose.00121
+
 ## License
 
 The materials on this website are openly available under a
