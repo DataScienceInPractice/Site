@@ -56,16 +56,18 @@ If you have any find any bugs or issues, or have any suggestions for these mater
 
 ## Source Materials
 
-This website hosts materials and code from a university course,
+This set of materials is an openly available version of tutorials and coursework developed for and 
+used in a university undergraduate course,
 [COGS 108](https://github.com/COGS108/),
 which is taught at UC San Diego.
 
-This set of materials are an openly available version of tutorials and coursework developed for and used in the course.
+These materials may still contain some references to the university course or to grading, which can be ignored.
 
-These materials may still contain some references to the course or to grading, which can be ignored.
+You can find more information about the university course in the
+[overview repository](https://github.com/COGS108/Overview/).
 
-You can read more about the course in the
-[course syllabus](https://github.com/COGS108/Overview/blob/master/COGS108-Syllabus.pdf).
+The materials for this open version of the course are managed through this
+[Github organization](https://github.com/DataScienceInPractice/). 
 
 The source repository for this website is available [here](https://github.com/DataScienceInPractice/Site).
 
@@ -85,7 +87,7 @@ The materials on this website are openly available under a
 
 ## Acknowledgments
 
-Data Science in Practice was originally created by
+The original university course these materials are adapted from was originally created by
 [Bradley Voytek](https://voyteklab.com/), and is currently primarily taught by
 [Shannon Ellis](http://www.shanellis.com/).
 This website and many of the materials were developed by
