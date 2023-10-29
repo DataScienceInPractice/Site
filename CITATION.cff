@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it using the metadata from this file.
+type: software
+title: 'DataScienceInPractice'
+authors:
+- given-names: 'Thomas'
+  family-names: 'Donoghue'
+  orcid: 'https://orcid.org/0000-0001-5911-0472'
+- given-names: 'Bradley'
+  family-names: 'Voytek'
+  orcid: 'https://orcid.org/0000-0003-1640-2525'
+- given-names: 'Shannon'
+  family-names: 'Ellis'
+  orcid: 'https://orcid.org/0000-0002-9231-0481'
+repository-code: 'https://github.com/DataScienceInPractice/Site'
+url: 'https://datascienceinpractice.github.io/'
+license: MIT
+preferred-citation:
+  type: article
+  authors:
+  - given-names: 'Thomas'
+    family-names: 'Donoghue'
+    orcid: 'https://orcid.org/0000-0001-5911-0472'
+  - given-names: 'Bradley'
+    family-names: 'Voytek'
+    orcid: 'https://orcid.org/0000-0003-1640-2525'
+  - given-names: 'Shannon'
+    family-names: 'Ellis'
+    orcid: 'https://orcid.org/0000-0002-9231-0481'
+  doi: '10.21105/jose.00121'
+  journal: 'The Journal of Open Source Education'
+  title: 'Course Materials for Data Science in Practice'
+  issue: 51
+  volume: 5
+  year: 2020
+  start: 1
+  end: 3
